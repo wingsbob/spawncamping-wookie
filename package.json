@@ -1,0 +1,26 @@
+{
+  "name": "spawncamping-wookie",
+  "version": "0.0.1",
+  "description": "It's a wookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingsbob/spawncamping-wookie.git"
+  },
+  "author": "Matthew Bull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wingsbob/spawncamping-wookie/issues"
+  },
+  "homepage": "https://github.com/wingsbob/spawncamping-wookie",
+  "devDependencies": {
+    "jasmine-core": "^2.3.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^4.1.2",
+    "karma-jasmine": "^0.3.5",
+    "proxyquire": "^1.4.0"
+  }
+}
