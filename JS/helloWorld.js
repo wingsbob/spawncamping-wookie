@@ -6,8 +6,18 @@
 	}
 
 	HelloWorld.prototype.sendToConsole = function(message) {
-		this.defaultmessage = 'my default message';
-		return message || this.defaultMessage;
+		if (arguments.length === 0) {
+			console.log (this.options.defaultMessage || "hello world");
+		}
+		else{
+			switch (typeof message){
+				case "string":
+					console.log(message);
+					break;
+				default:
+					throw "Error: message is type \"" + typeof message + "\" type";
+			}
+		};
 	};
 
 	module.exports = HelloWorld;
